@@ -1,0 +1,112 @@
+ .HomePage {
+     position: relative;
+     display: flex;
+     height: 100vh;
+     width: 100%;
+     z-index: 2;
+     margin: 0 auto;
+     background-image: url("../../assets/backgroundPhoto4.svg");
+ }
+
+ .HomePageComponent {
+     display: flex;
+     width: 50%;
+     /* padding-right: 15px;
+     padding-left: 15px; */
+     margin-top: 35vh;
+     justify-content: space-between;
+     height: 25vh;
+     -webkit-animation: slide-in-left 0.5s 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     animation: slide-in-left 0.5s 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     background: linear-gradient(to right, white, transparent);
+     border-top-right-radius: 50%;
+     border-bottom-right-radius: 50%;
+ }
+
+ .button {
+     height: 50px;
+     width: 200px;
+     color: black;
+     background: transparent;
+     border-color: black;
+     font-size: 16px;
+     border-radius: 30px;
+     padding-top: 10px;
+     padding-right: 30px;
+     padding-bottom: 10px;
+     padding-left: 30px;
+     margin-top: 20px;
+     cursor: pointer;
+     font-weight: 500;
+     box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.335);
+ }
+
+ .button:hover {
+     cursor: pointer;
+     color: white;
+     background: black;
+ }
+ .textWrapper {
+     height: fit-content;
+     width: 100%;
+     padding-left: 3%;
+ }
+
+ .photoWrapper {
+     border-radius: 50%;
+     /* margin-left: 50%; */
+     -webkit-animation: roll-in-left 0.6s 2s ease-out both;
+     animation: roll-in-left 0.6s 2s ease-out both;
+ }
+
+ @-webkit-keyframes roll-in-left {
+     0% {
+         -webkit-transform: translateX(-800px) rotate(-540deg);
+         transform: translateX(-800px) rotate(-540deg);
+         opacity: 0;
+     }
+     100% {
+         -webkit-transform: translateX(0) rotate(0deg);
+         transform: translateX(0) rotate(0deg);
+         opacity: 1;
+     }
+ }
+
+ @keyframes roll-in-left {
+     0% {
+         -webkit-transform: translateX(-800px) rotate(-540deg);
+         transform: translateX(-800px) rotate(-540deg);
+         opacity: 0;
+     }
+     100% {
+         -webkit-transform: translateX(0) rotate(0deg);
+         transform: translateX(0) rotate(0deg);
+         opacity: 1;
+     }
+ }
+
+ @-webkit-keyframes slide-in-left {
+     0% {
+         -webkit-transform: translateX(-1000px);
+         transform: translateX(-1000px);
+         opacity: 0;
+     }
+     100% {
+         -webkit-transform: translateX(0);
+         transform: translateX(0);
+         opacity: 1;
+     }
+ }
+
+ 
+ @media only screen and (max-width: 600px) {
+    .HomePageComponent {
+        display: flex;
+        width: 100%;
+        margin-top: 20vh;
+        height: auto;
+        background: linear-gradient(to bottom, white, transparent);
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
