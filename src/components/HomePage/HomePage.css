@@ -11,8 +11,6 @@
  .HomePageComponent {
      display: flex;
      width: 50%;
-     /* padding-right: 15px;
-     padding-left: 15px; */
      margin-top: 35vh;
      justify-content: space-between;
      height: 25vh;
