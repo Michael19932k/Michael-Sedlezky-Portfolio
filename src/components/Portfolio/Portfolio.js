@@ -22,8 +22,8 @@ function Portfolio({ PortfolioRef }) {
                 <div className="cardContent">
                     <div className="cardTitle">Personal movie bookmark project</div>
                     <div className="cardDescription">Connected with foreign API. Enables to user search and discover new and soon to be released movies via theMoviedb.org. User gets all the deteils on the movie including mivie trailer and can add them to personaliesed collection stored in MongoDB and displayed on his profile.</div>
-                    <button className="button" onClick={() => { window.open("https://michael-app111.herokuapp.com") }}>See Live</button>
-                    <button className="button" onClick={() => { window.open("https://github.com/Michael19932k/chat--deploy-0/tree/master/public") }}>Source Code</button>
+                    <button className="button" onClick={() => { window.open("https://fav--movies.herokuapp.com/") }}>See Live</button>
+                    <button className="button" onClick={() => { window.open("https://github.com/oleg1994/FavouriteMovie") }}>Source Code</button>
                 </div>
                 <img className="cardPic" src={favoriteMoviePic}></img>
             </div>
