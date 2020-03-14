@@ -189,7 +189,10 @@
                 height: auto;
         }
         .AboutContentColumnMiddle {
+<<<<<<< HEAD
                 image-resolution: cover;
+=======
+>>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
                 width:auto;
                 -webkit-animation: none;
                             animation: none;

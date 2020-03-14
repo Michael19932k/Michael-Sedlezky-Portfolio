@@ -13,7 +13,11 @@ function About({ AboutRef }) {
                 direction and complete a eight months Full Stack web development course at Interbit. While I contributed already to a number of 
                 small scale projects to a local start-ups, I'm still looking to gain a more permanent foothold 
                 in the industry as a Junior front-end, back-end or full stack developer. </div>
+<<<<<<< HEAD
                 <img className="AboutContentColumnMiddle ContentColumns" src={personalPhoto} alt="Not found"></img>
+=======
+                <img className="AboutContentColumnMiddle ContentColumns" src={personalPhoto}></img>
+>>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
                 <div className="AboutContentColumnRight ContentColumns">I am highly motivated and very enthusiastic about this field and the possibilities it 
                 provides. Constant technological advansments are making the learning curve practicaly limitless and bring something new to
                  discover to each passing day. I am committed to become a professional in the field and posses the capability of independent learning, 
