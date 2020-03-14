@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import chatPic from "../../assets/chatPic.png";
-import favoriteMoviePic from "../../assets/favoriteMoviePic.png";
+import favoriteMoviePic from "../../assets/favoriteMoviePic.jpg";
 import greenRadPic from "../../assets/greenRadPic.jpg";
 
 function Portfolio({ PortfolioRef }) {
