@@ -11,11 +11,8 @@
  .HomePageComponent {
      display: flex;
      width: 50%;
-<<<<<<< HEAD
      /* padding-right: 15px;
      padding-left: 15px; */
-=======
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
      margin-top: 35vh;
      justify-content: space-between;
      height: 25vh;
@@ -41,13 +38,8 @@
      margin-top: 20px;
      cursor: pointer;
      font-weight: 500;
-<<<<<<< HEAD
-     box-shadow: 3px 3px 5px 6px#1616162b;
-     ;
-=======
      box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.335);
      font-weight: 300;
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
  }
 
  .button:hover {

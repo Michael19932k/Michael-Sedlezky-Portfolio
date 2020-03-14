@@ -48,11 +48,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     box-shadow: 3px 3px 5px 6px #1616162b;
-=======
-    box-shadow: 3px 3px 5px 6px #ccc;
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
 }
 
 .skillName {

@@ -2,11 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import chatPic from "../../assets/chatPic.png";
 import favoriteMoviePic from "../../assets/favoriteMoviePic.png";
-<<<<<<< HEAD
 import greenRadPic from "../../assets/greenRadPic.jpg";
-=======
-import greenRadPic from "../../assets/greenRadPic.png";
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
 
 function Portfolio({ PortfolioRef }) {
     return (
@@ -20,23 +16,14 @@ function Portfolio({ PortfolioRef }) {
                     <button className="button" onClick={() => { window.open("https://www.youtube.com/watch?v=VfNZqeiPXv8&feature=youtu.be") }}>Video Demo</button>
                     <button className="button" style={{ width: "fit-content" }} onClick={() => { window.open("https://drive.google.com/open?id=1lV2Khlq8dPZnGu9pEwDRnDVT4Z5_Xu9S") }}>Recomendation Letter</button>
                 </div>
-<<<<<<< HEAD
                 <img className="cardPic" src={greenRadPic} alt="Not found" style={{ height: "300px" }}></img>
-=======
-                <img className="cardPic" src={greenRadPic} style={{ height: "300px" }}></img>
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
             </div>
             <div className="projectCard">
                 <div className="cardContent">
                     <div className="cardTitle">Personal movie bookmark project</div>
                     <div className="cardDescription">Connected with foreign API. Enables to user search and discover new and soon to be released movies via theMoviedb.org. User gets all the deteils on the movie including mivie trailer and can add them to personaliesed collection stored in MongoDB and displayed on his profile.</div>
-<<<<<<< HEAD
-                    <button className="button" onClick={() => { window.open("https://michael-app111.herokuapp.com") }}>See Live</button>
-                    <button className="button" onClick={() => { window.open("https://github.com/Michael19932k/chat--deploy-0/tree/master/public") }}>Source Code</button>
-=======
                     <button className="button" onClick={() => { window.open("https://fav--movies.herokuapp.com/") }}>See Live</button>
                     <button className="button" onClick={() => { window.open("https://github.com/oleg1994/FavouriteMovie") }}>Source Code</button>
->>>>>>> 88ea0b85bdbb963b9407065a3b3ec01e522a027c
                 </div>
                 <img className="cardPic" src={favoriteMoviePic}></img>
             </div>
