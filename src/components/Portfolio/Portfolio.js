@@ -25,7 +25,7 @@ function Portfolio({ PortfolioRef }) {
                     <button className="button" onClick={() => { window.open("https://fav--movies.herokuapp.com/") }}>See Live</button>
                     <button className="button" onClick={() => { window.open("https://github.com/oleg1994/FavouriteMovie") }}>Source Code</button>
                 </div>
-                <img className="cardPic" src={favoriteMoviePic}></img>
+                <img className="cardPic" src={favoriteMoviePic} alt="Not found"></img>
             </div>
             <div className="projectCard">
                 <div className="cardContent">
@@ -34,7 +34,7 @@ function Portfolio({ PortfolioRef }) {
                     <button className="button" onClick={() => { window.open("https://michael-app111.herokuapp.com") }}>See Live</button>
                     <button className="button" onClick={() => { window.open("https://github.com/Michael19932k/chat--deploy-0/tree/master/public") }}>Source Code</button>
                 </div>
-                <img className="cardPic" src={chatPic}></img>
+                <img className="cardPic" src={chatPic} alt="Not found"></img>
             </div>
 
 
