@@ -11,6 +11,10 @@
     flex-direction: column;
     transition: .3s all ease;
     background-image: url("../../assets/backgroundPhoto5.svg");
+<<<<<<< HEAD
+=======
+    background-size: cover;
+>>>>>>> da540adbc5d9cca438db590f1515cdff1585c814
 }
 
 .AboutHeader {
@@ -189,6 +193,10 @@
                 height: auto;
         }
         .AboutContentColumnMiddle {
+<<<<<<< HEAD
+=======
+                image-resolution: cover;
+>>>>>>> da540adbc5d9cca438db590f1515cdff1585c814
                 width:auto;
                 -webkit-animation: none;
                             animation: none;

@@ -2,6 +2,10 @@
     height: auto;
     width: 100;
     background-image: url("../../assets/backgroundPhoto4.svg");
+<<<<<<< HEAD
+=======
+    background-size: cover;
+>>>>>>> da540adbc5d9cca438db590f1515cdff1585c814
 }
 .Title{
     width: 100%;
@@ -48,7 +52,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     box-shadow: 3px 3px 5px 6px #ccc;
+=======
+    box-shadow: 3px 3px 5px 6px #1616162b;
+>>>>>>> da540adbc5d9cca438db590f1515cdff1585c814
 }
 
 .skillName {
