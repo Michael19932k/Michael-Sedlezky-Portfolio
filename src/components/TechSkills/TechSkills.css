@@ -1,0 +1,111 @@
+.TechSkills {
+    height: auto;
+    width: 100;
+    background-image: url("../../assets/backgroundPhoto4.svg");
+}
+.Title{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: black solid;
+    font-weight: 300;   
+}
+
+.skillsWrapper {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    border-bottom: 2px solid #6d6f77;
+}
+
+.skillsContent {
+    height: auto;
+    width: 100%;
+}
+
+.skillBlocks {
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skillBlock {
+    background: #FFFFFF;
+    width: 200px;
+    height: 75px;
+    margin: 50px;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.skillName {
+    height: 100%;
+    line-height: 120px;
+    text-align: center;
+}
+
+.hexagon {
+    width: 100px;
+    height: 55px;
+    background: #2FA499;
+    position: relative;
+    top: -45px;
+    right: 50%;
+    transform: translateY(-50%);
+}
+
+.hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #2FA499;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #2FA499;
+}
+
+.skill__image {
+    height: 60px;
+    position: relative;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .TechSkills{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .skillBlocks {
+        width: 80%;
+    }
+}

@@ -1,0 +1,99 @@
+.Portfolio {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: 2;
+    margin: 0 auto;
+    background-color: rgb(190, 216, 236);
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("../../assets/backgroundPhoto6.svg");
+    background-image: url("../../assets/backgroundPhoto5.svg");
+    background-size: cover;
+    flex-direction: column;
+}
+
+.theTitle {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto 5vh;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: black solid;
+    font-weight: 300;
+}
+
+.projectCard {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.cardContent {
+    background: linear-gradient(to bottom , white, transparent);
+}
+
+.cardTitle {
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.cardDescription {
+    font-size: 20px;
+    
+    
+}
+
+
+.buttonSeeCode {
+    width: 15vw;
+    height: 5vh;
+    display: inline-block;
+    position: relative;
+    padding: .8rem 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    z-index: 3;
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    background-image: linear-gradient(135deg,#02aab0,#00cdac);
+}
+
+.cardPic {
+    width: 50%;
+    margin-left: 5vw;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.335);
+}
+@media only screen and (max-width: 600px) {
+    .Portfolio{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        flex-direction: column;
+        height: auto;
+    }
+    .projectCard{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 25vh;
+    }
+    .cardPic {
+        width: 100vw;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 5vh;
+    }
+    .cardDescription {
+        font-size: 16px;
+    }
+}
